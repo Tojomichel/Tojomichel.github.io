@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     background: linear-gradient(135deg, #0a0a23, #1e3b70, #4a90e2);
@@ -11,9 +11,11 @@ body{
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
@@ -24,6 +26,7 @@ body{
         opacity: 0;
         transform: translateY(20px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -79,7 +82,7 @@ nav ul li a:active {
 }
 
 .window-header {
-    display:flex;
+    display: flex;
     justify-content: flex-end;
     margin-bottom: 1em;
 }
@@ -116,10 +119,13 @@ nav ul li a:active {
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    min-height: 90vh;
+    min-height: 100vh;
     padding: 20px;
+    gap: 40px;
+    position: relative;
 }
 
 .presentation {
@@ -214,7 +220,7 @@ footer {
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
-    transition: color 0.3s ease, text-shadow 0.3s ease; 
+    transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 .project-link:hover {
@@ -262,4 +268,12 @@ footer {
 
 .close-btn:hover {
     color: #ddd;
+}
+
+.competences {
+    margin-top: auto;
+    width: 100%;
+    padding: 2rem 0;
+    color: white;
+    text-align: center;
 }

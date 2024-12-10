@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="stylesheet" href ="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -19,15 +19,41 @@
             </ul>
         </nav>
     </header>
-    <main class = "page">
-        <section class = "cv">
-            <h1>MON CV</h1>
-            <p>Vous pouvez télécharger mon CV en PDF<a href = "cv.pdf" download></a>.</p>
+    <main class="page">
+        <section class="cv">
+            <h1>Vous pouvez voir ci-dessous mon CV</h1>
+            <iframe src="cv/cv.pdf" width="165%" height="700px" title="Aperçu du CV"></iframe>
+            <p>
+                <a href="cv.pdf" download class="download-button">Télécharger mon CV</a>
+            </p>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
     </footer>
+
+    <style>
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 15px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .download-button:hover {
+            background-color: #45a049;
+        }
+
+        iframe {
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
 </body>
 
 </html>
