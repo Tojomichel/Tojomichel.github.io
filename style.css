@@ -421,7 +421,7 @@ footer {
 
 .map-container {
     margin-top: 20px;
-    border: 5px solid #ddd;
+    border: 0px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
     height: 500px;
