@@ -3,7 +3,7 @@ body {
     margin: 0;
     background: linear-gradient(135deg, #0a0a23, #1e3b70, #4a90e2);
     background-size: 400% 400%;
-    animation: gradientMove 10s infinite;
+    animation: gradientMove 5s infinite;
     color: #ffffff;
 }
 
@@ -115,6 +115,7 @@ nav ul li a:active {
 
 .window-body p {
     margin: 0;
+    font-size: 18px;
 }
 
 main {
@@ -131,7 +132,8 @@ main {
 .presentation {
     text-align: left;
     max-width: 800px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
+    margin-top: 75px;
     animation: fadeUp 1s ease-out forwards;
 }
 
@@ -139,6 +141,7 @@ h1 {
     color: #4a90e2;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
     font-size: 36px;
+    margin-bottom: 50px;
 }
 
 button {
