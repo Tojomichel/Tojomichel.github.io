@@ -163,9 +163,8 @@ main {
 h1 {
     position: relative;
     color: burlywood;
-    /* Couleur du texte */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-    font-size: 36px;
+    font-size: 40px;
     font-family: "Monotype Corsiva", cursive;
     text-align: center;
     padding: 20px 40px;
@@ -181,9 +180,7 @@ h1::before {
     right: 0;
     bottom: 0;
     background: rgba(15, 107, 169, 0.597);
-    /* Couleur du trapèze */
     clip-path: polygon(5% 0, 95% 0, 100% 100%, 0 100%);
-    /* Forme du parallélogramme */
     z-index: -1;
 }
 
@@ -372,11 +369,9 @@ footer {
     position: relative;
     text-align: center;
     color: burlywood;
-    /* Couleur du texte */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
     font-size: 36px;
     margin: 30px 0;
-    /* Espacement autour du titre */
 }
 
 .competences h2::before,
@@ -386,9 +381,7 @@ footer {
     height: 2px;
     /* Épaisseur des traits */
     background: white;
-    /* Couleur des traits */
     width: 50%;
-    /* Largeur des traits */
     position: absolute;
     left: 25%;
     /* Centrage horizontal */
@@ -396,12 +389,10 @@ footer {
 
 .competences h2::before {
     top: -10px;
-    /* Position du trait au-dessus */
 }
 
 .competences h2::after {
     bottom: -10px;
-    /* Position du trait en-dessous */
 }
 
 
@@ -455,11 +446,9 @@ footer {
     position: relative;
     text-align: center;
     color: burlywood;
-    /* Couleur du texte */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
     font-size: 36px;
     margin: 30px 0;
-    /* Espacement autour du titre */
 }
 
 .formations h2::before,
@@ -467,24 +456,18 @@ footer {
     content: "";
     display: block;
     height: 2px;
-    /* Épaisseur des traits */
     background: white;
-    /* Couleur des traits */
     width: 50%;
-    /* Largeur des traits */
     position: absolute;
     left: 25%;
-    /* Centrage horizontal */
 }
 
 .formations h2::before {
     top: -10px;
-    /* Position du trait au-dessus */
 }
 
 .formations h2::after {
     bottom: -10px;
-    /* Position du trait en-dessous */
 }
 
 
