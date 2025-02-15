@@ -63,7 +63,7 @@ header {
     background-color: rgba(30, 30, 47, 0.8);
     padding: 1em 0;
     text-align: center;
-    position: sticky;
+    position: relative;
 }
 
 nav ul {
