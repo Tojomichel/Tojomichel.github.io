@@ -703,3 +703,67 @@ footer {
     border: 3px solid burlywood;
     border-radius: 50%;
 }
+
+@media (max-width: 1024px) {
+
+    .project-cards,
+    .competences-grid,
+    .formations-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 90%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 32px;
+        padding: 10px 20px;
+    }
+
+    .timeline {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .timeline-step {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .circle {
+        position: relative;
+        left: auto;
+        top: auto;
+        transform: none;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .contact-card {
+        width: 100%;
+        padding: 20px;
+    }
+}
